@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uN/OnhRH37i4HL6zV+jqhio3zFsOinO86M5/+e/wU04W9ZGiAzCGDdFn0UuBkGT83Sgw931YDIguPpB91ytZIg==",
+  "dgSpecHash": "AmgnX061u4EcyEoVgS4vwlQ1NuXiCXLNRICzz2Nw66FhvbWnbGoRDHn3+gxMdctCHsZuZ0LyKXeSKw5vW60giw==",
   "success": true,
-  "projectFilePath": "/Users/lydiaswanson/Desktop/MySciptureJournal/MySciptureJournal.csproj",
+  "projectFilePath": "/Users/lydiaswanson/Desktop/MyScriptureJournal/MySciptureJournal.csproj",
   "expectedPackageFiles": [
     "/Users/lydiaswanson/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/lydiaswanson/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

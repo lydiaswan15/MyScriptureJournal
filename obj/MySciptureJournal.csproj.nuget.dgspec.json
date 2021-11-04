@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lydiaswanson/Desktop/MySciptureJournal/MySciptureJournal.csproj": {}
+    "/Users/lydiaswanson/Desktop/MyScriptureJournal/MySciptureJournal.csproj": {}
   },
   "projects": {
-    "/Users/lydiaswanson/Desktop/MySciptureJournal/MySciptureJournal.csproj": {
+    "/Users/lydiaswanson/Desktop/MyScriptureJournal/MySciptureJournal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lydiaswanson/Desktop/MySciptureJournal/MySciptureJournal.csproj",
+        "projectUniqueName": "/Users/lydiaswanson/Desktop/MyScriptureJournal/MySciptureJournal.csproj",
         "projectName": "MySciptureJournal",
-        "projectPath": "/Users/lydiaswanson/Desktop/MySciptureJournal/MySciptureJournal.csproj",
+        "projectPath": "/Users/lydiaswanson/Desktop/MyScriptureJournal/MySciptureJournal.csproj",
         "packagesPath": "/Users/lydiaswanson/.nuget/packages/",
-        "outputPath": "/Users/lydiaswanson/Desktop/MySciptureJournal/obj/",
+        "outputPath": "/Users/lydiaswanson/Desktop/MyScriptureJournal/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/lydiaswanson/.nuget/NuGet/NuGet.Config"
