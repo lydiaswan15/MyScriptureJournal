@@ -2,14 +2,16 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace MySciptureJournal.Migrations
 {
     [DbContext(typeof(MyScriptureJournalContext))]
-    partial class MyScriptureJournalContextModelSnapshot : ModelSnapshot
+    [Migration("20211104215715_Book")]
+    partial class Book
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -37,9 +39,6 @@ namespace MySciptureJournal.Migrations
 
                     b.Property<int>("BookId")
                         .HasColumnType("INTEGER");
-
-                    b.Property<string>("Chapter")
-                        .HasColumnType("TEXT");
 
                     b.Property<DateTime>("DateCreated")
                         .HasColumnType("TEXT");

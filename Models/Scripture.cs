@@ -7,7 +7,7 @@ namespace MyScriptureJournal.Models
     {
         public int ScriptureId { get; set; }
         public int BookId { get; set; }
-
+        public string Chapter { get; set; }
         public string Verses { get; set; }
         public string Notes { get; set; }
         public DateTime DateCreated { get; set; }
