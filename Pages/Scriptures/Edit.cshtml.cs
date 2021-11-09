@@ -36,7 +36,7 @@ namespace MySciptureJournal.Pages.Scriptures
             {
                 return NotFound();
             }
-           ViewData["BookId"] = new SelectList(_context.Set<Book>(), "BookId", "BookId");
+            ViewData["BookId"] = new SelectList(_context.Set<Book>(), "BookId", "BookName");
             return Page();
         }
 
