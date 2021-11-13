@@ -48,6 +48,7 @@ namespace MySciptureJournal.Pages.Scriptures
             }
             Chapters = new SelectList(await genreQuery.Distinct().ToListAsync());
             Scripture = await scriptures.ToListAsync();
+
         }
 
     }

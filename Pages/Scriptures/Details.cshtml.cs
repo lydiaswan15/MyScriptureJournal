@@ -28,6 +28,7 @@ namespace MySciptureJournal.Pages.Scriptures
             }
 
             Scripture = await _context.Scripture
+                .Include(s => s.Book.BookName)
                 .Include(s => s.Book).FirstOrDefaultAsync(m => m.ScriptureId == id);
 
             if (Scripture == null)
